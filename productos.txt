@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Escuadra",
+        "price": 123.45,
+        "thumbnail": "URL Escuadra",
+        "id": 1
+    },
+    {
+        "title": "Calculadora",
+        "price": 234.56,
+        "thumbnail": "URL Calculadora",
+        "id": 2
+    },
+    {
+        "title": "Globo Terráqueo",
+        "price": 345.67,
+        "thumbnail": "URL Globo Terraqueo",
+        "id": 3
+    },
+        {
+        "title": "Regla",
+        "price": 125.07,
+        "thumbnail": "URL Regla",
+        "id": 4
+    },
+        {
+        "title": "Lapiz",
+        "price": 50.98,
+        "thumbnail": "URL Lapiz",
+        "id": 5
+    }
+]
