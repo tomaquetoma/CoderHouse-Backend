@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Lapiz",
+    "price": 100,
+    "thumbnail": "Url-Lapiz"
+  },
+  {
+    "id": 2,
+    "title": "Escuadra",
+    "price": 300,
+    "thumbnail": "Url-Escuadra"
+  },
+  {
+    "id": 3,
+    "title": "Goma",
+    "price": 70,
+    "thumbnail": "Url-Goma"
+  },
+  {
+    "title": "Cascola",
+    "price": 180,
+    "thumbnail": "Url-Cascola",
+    "id": 4
+  },
+  {
+    "title": "Regla",
+    "price": "250",
+    "thumbnail": "URL-Regla",
+    "id": 5
+  },
+  {
+    "title": "Regla",
+    "price": 320,
+    "thumbnail": "Url-Regla",
+    "id": 6
+  }
+]

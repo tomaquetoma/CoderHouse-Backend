@@ -10,7 +10,7 @@ class Contenedor {
         let data
 
         try {
-            data = await fs.promise.readFileSync(`./${this.name}`)
+            data = await fs.promises.readFile(`./${this.name}`)
             data = JSON.parse(data)
         } catch (error) {
             data = []
@@ -35,7 +35,7 @@ class Contenedor {
         let data
 
         try {
-            data = await fs.readFileSync(`./${this.name}`)
+            data = await fs.promises.readFile(`./${this.name}`)
             data = JSON.parse(data)
         } catch (error) {
             data = []
@@ -44,23 +44,23 @@ class Contenedor {
         return data.find(item => item.id === idNumber)      
     }
 
-    async getAll(){
+    async getAll () {
         let data
         try {
-            data = await fs.readFileSync(`./${this.name}`)
-            data = JSON.parse(data)
-        } catch (error) {
-            data = []
+          data = await fs.promises.readFile(`./${this.name}`)
+          data = JSON.parse(data)
+        } catch (e) {
+          data = []
         }
-
+    
         return data
-    }
+      }
 
 
     async deleteById(idNumber){
         let data
         try {
-            data = await fs.promise.readFileSync(`./${this.name}`)
+            data = await fs.promises.readFile(`./${this.name}`)
             data = JSON.parse(data)
         } catch (error) {
             data = []
