@@ -1,0 +1,5 @@
+En mi caso me resulto mas eficiente utilizar PUG, luego EJS y por ultimo Handlebars.
+
+PUG me parece una sintaxis bastante familiar para mi que vengo del frontend.
+EJS si bien es distinta, fue la que al menos me quedo bastante claro como utilizarla
+Handlebars no me parecio practico de configurarlo

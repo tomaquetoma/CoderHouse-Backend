@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%- include("./partials/head") %> 
+</head>
+<body>
+    <h2>LISTADO DE PRODUCTOS</h2>
+    <% if (productos.length) { %>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Precio ($)</th>
+              <th scope="col">Imagen</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% productos.forEach((producto, index) => { %>
+            <tr>
+              <th scope="row"><%= index + 1%></th>
+              <td><%= producto.title %></td>
+              <td><%= producto.price %></td>
+              <td><img src="<%-producto.thumbnail%>" style="width: 40px; height: 40px;"</td>
+            </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      <% } else { %>
+        No se encontraron datos.
+      <% } %>
+
+      <a class="btn btn-primary" href="/">Volver al formulario</a>
+</body>
+</html>
